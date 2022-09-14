@@ -28,8 +28,7 @@ Inicio
 
              se(p=2) então
 
-             escreva (c)
-             escreva (" É primo")
+             escreval ("o número", c, " é primo")
 
       fimse
 

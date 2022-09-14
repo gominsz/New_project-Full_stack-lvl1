@@ -1,25 +1,38 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 12/09/2022
+// DescriÃ§Ã£o   : ImplementaÃ§Ã£o do algoritmo para imprimir e somar todos os nÃºmeros menores ou iguais a um determinado
+// Autor(a)    : Matheus Camargo
+// Data atual  : 14/09/2022
 Var
-   numero,resultado,i:inteiro
 
+   c,i,n,p : inteiro
 
 Inicio
-   leia(numero)
 
-       resultado <- 1
+      escreva("Digite um nÃºmero:")
 
-   para i de 1 ate numero faca
+      leia(n)
 
-       resultado <- resultado * i
+         para c de 1 atÃ© n faca
 
-   fimpara
+          p <-0
 
-   escreval(resultado)
+          para i de 1 atÃ© c faca
 
+      se (c mod i=0) entÃ£o
 
-Fimalgoritmo
+         p <-p+1
+
+      fimse
+
+      fimpara
+
+             se(p=2) entÃ£o
+
+             escreva (c)
+             escreva (" Ã‰ primo")
+
+      fimse
+
+      fimpara
+
+fimalgoritmo
